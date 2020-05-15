@@ -1,7 +1,7 @@
 ### Restore packages
-
+```
 dotnet Restore
-
+```
 ### Add Migrations
 ```
 dotnet ef migrations remove -s ../MyDevPortfolioAPI.Api -o Persistence/Migrations
