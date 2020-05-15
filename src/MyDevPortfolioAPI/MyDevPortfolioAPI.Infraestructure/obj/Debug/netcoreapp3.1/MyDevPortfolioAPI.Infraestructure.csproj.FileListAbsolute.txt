@@ -1,0 +1,14 @@
+C:\Users\aclavijo\Documents\Privado\Projects\MyDevPortfolio\src\MyDevPortfolioAPI\MyDevPortfolioAPI.Infraestructure\bin\Debug\netcoreapp3.1\MyDevPortfolioAPI.Infraestructure.deps.json
+C:\Users\aclavijo\Documents\Privado\Projects\MyDevPortfolio\src\MyDevPortfolioAPI\MyDevPortfolioAPI.Infraestructure\bin\Debug\netcoreapp3.1\MyDevPortfolioAPI.Infraestructure.dll
+C:\Users\aclavijo\Documents\Privado\Projects\MyDevPortfolio\src\MyDevPortfolioAPI\MyDevPortfolioAPI.Infraestructure\bin\Debug\netcoreapp3.1\MyDevPortfolioAPI.Infraestructure.pdb
+C:\Users\aclavijo\Documents\Privado\Projects\MyDevPortfolio\src\MyDevPortfolioAPI\MyDevPortfolioAPI.Infraestructure\bin\Debug\netcoreapp3.1\MyDevPortfolioAPI.Application.dll
+C:\Users\aclavijo\Documents\Privado\Projects\MyDevPortfolio\src\MyDevPortfolioAPI\MyDevPortfolioAPI.Infraestructure\bin\Debug\netcoreapp3.1\MyDevPortfolioAPI.Core.dll
+C:\Users\aclavijo\Documents\Privado\Projects\MyDevPortfolio\src\MyDevPortfolioAPI\MyDevPortfolioAPI.Infraestructure\bin\Debug\netcoreapp3.1\MyDevPortfolioAPI.Application.pdb
+C:\Users\aclavijo\Documents\Privado\Projects\MyDevPortfolio\src\MyDevPortfolioAPI\MyDevPortfolioAPI.Infraestructure\bin\Debug\netcoreapp3.1\MyDevPortfolioAPI.Core.pdb
+C:\Users\aclavijo\Documents\Privado\Projects\MyDevPortfolio\src\MyDevPortfolioAPI\MyDevPortfolioAPI.Infraestructure\obj\Debug\netcoreapp3.1\MyDevPortfolioAPI.Infraestructure.csprojAssemblyReference.cache
+C:\Users\aclavijo\Documents\Privado\Projects\MyDevPortfolio\src\MyDevPortfolioAPI\MyDevPortfolioAPI.Infraestructure\obj\Debug\netcoreapp3.1\MyDevPortfolioAPI.Infraestructure.csproj.CoreCompileInputs.cache
+C:\Users\aclavijo\Documents\Privado\Projects\MyDevPortfolio\src\MyDevPortfolioAPI\MyDevPortfolioAPI.Infraestructure\obj\Debug\netcoreapp3.1\MyDevPortfolioAPI.Infraestructure.AssemblyInfoInputs.cache
+C:\Users\aclavijo\Documents\Privado\Projects\MyDevPortfolio\src\MyDevPortfolioAPI\MyDevPortfolioAPI.Infraestructure\obj\Debug\netcoreapp3.1\MyDevPortfolioAPI.Infraestructure.AssemblyInfo.cs
+C:\Users\aclavijo\Documents\Privado\Projects\MyDevPortfolio\src\MyDevPortfolioAPI\MyDevPortfolioAPI.Infraestructure\obj\Debug\netcoreapp3.1\MyDevPortfolioAPI.Infraestructure.csproj.CopyComplete
+C:\Users\aclavijo\Documents\Privado\Projects\MyDevPortfolio\src\MyDevPortfolioAPI\MyDevPortfolioAPI.Infraestructure\obj\Debug\netcoreapp3.1\MyDevPortfolioAPI.Infraestructure.dll
+C:\Users\aclavijo\Documents\Privado\Projects\MyDevPortfolio\src\MyDevPortfolioAPI\MyDevPortfolioAPI.Infraestructure\obj\Debug\netcoreapp3.1\MyDevPortfolioAPI.Infraestructure.pdb
