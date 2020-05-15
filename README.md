@@ -3,6 +3,7 @@
 dotnet Restore
 ```
 ### Add Migrations
+Go to Infraestructure project and execute this instructions
 ```
 dotnet ef migrations remove -s ../MyDevPortfolioAPI.Api -o Persistence/Migrations
 ```
