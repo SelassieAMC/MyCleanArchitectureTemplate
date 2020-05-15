@@ -1,16 +1,16 @@
-# Restore packages
+### Restore packages
 
 dotnet Restore
 
-# Add Migrations
+### Add Migrations
 ```
 dotnet ef migrations remove -s ../MyDevPortfolioAPI.Api -o Persistence/Migrations
 ```
-** where ** 
-  -s specify the startup project
-  -o output directory for migrations
+**Where**
+-s specify the startup project
+-o output directory for migrations
 
-# Remove last Migrations
+### Remove last Migrations
 ```
 dotnet ef migrations remove -s ../MyDevPortfolioAPI.Api 
 ```
