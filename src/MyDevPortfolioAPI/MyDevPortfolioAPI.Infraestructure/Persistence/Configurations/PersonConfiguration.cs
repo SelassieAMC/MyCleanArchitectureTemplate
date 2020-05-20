@@ -6,6 +6,7 @@ namespace MyDevPortfolioAPI.Infrastructure.Persistence.Configurations
 {
     public class PersonConfiguration : IEntityTypeConfiguration<Person>
     {
+        //Example of fluent API configuration
         public void Configure(EntityTypeBuilder<Person> builder)
         {
             builder.HasOne(p => p.DocumentType)

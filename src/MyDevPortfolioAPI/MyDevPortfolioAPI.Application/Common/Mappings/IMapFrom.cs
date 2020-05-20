@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 
-namespace BarberShop.Application.Common.Mappings
+namespace MyDevPortfolioAPI.Application.Common.Mappings
 {
     public interface IMapFrom<T>
     {   

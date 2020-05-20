@@ -1,7 +1,6 @@
 C:\Users\aclavijo\Documents\Privado\Projects\MyDevPortfolio\src\MyDevPortfolioAPI\MyDevPortfolioAPI.Core\bin\Debug\netcoreapp3.1\MyDevPortfolioAPI.Core.deps.json
 C:\Users\aclavijo\Documents\Privado\Projects\MyDevPortfolio\src\MyDevPortfolioAPI\MyDevPortfolioAPI.Core\bin\Debug\netcoreapp3.1\MyDevPortfolioAPI.Core.dll
 C:\Users\aclavijo\Documents\Privado\Projects\MyDevPortfolio\src\MyDevPortfolioAPI\MyDevPortfolioAPI.Core\bin\Debug\netcoreapp3.1\MyDevPortfolioAPI.Core.pdb
-C:\Users\aclavijo\Documents\Privado\Projects\MyDevPortfolio\src\MyDevPortfolioAPI\MyDevPortfolioAPI.Core\obj\Debug\netcoreapp3.1\MyDevPortfolioAPI.Core.csprojAssemblyReference.cache
 C:\Users\aclavijo\Documents\Privado\Projects\MyDevPortfolio\src\MyDevPortfolioAPI\MyDevPortfolioAPI.Core\obj\Debug\netcoreapp3.1\MyDevPortfolioAPI.Core.csproj.CoreCompileInputs.cache
 C:\Users\aclavijo\Documents\Privado\Projects\MyDevPortfolio\src\MyDevPortfolioAPI\MyDevPortfolioAPI.Core\obj\Debug\netcoreapp3.1\MyDevPortfolioAPI.Core.AssemblyInfoInputs.cache
 C:\Users\aclavijo\Documents\Privado\Projects\MyDevPortfolio\src\MyDevPortfolioAPI\MyDevPortfolioAPI.Core\obj\Debug\netcoreapp3.1\MyDevPortfolioAPI.Core.AssemblyInfo.cs

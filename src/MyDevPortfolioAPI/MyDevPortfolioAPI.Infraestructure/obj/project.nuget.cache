@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "FgUiUxgKf6yYHbhQwQGJIEZCCVQbYua+XyJ7pyjlkhNUeeDbFl3/+gbhbnmK+GGxUh/jBfdg2r/IYT2Z0Gp+Pw==",
+  "dgSpecHash": "8ceqO6n3ZIUp/1XxLpWRJWsBBt6PWLmnrG/dx3FTdMFz7BFYIoyHbgvvoTnbdZavlSIXRygeH8ryxiCxbxRWHQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Infraestructure\\MyDevPortfolioAPI.Infraestructure.csproj",
+  "projectFilePath": "C:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Infraestructure\\MyDevPortfolioAPI.Infraestructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aclavijo\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\aclavijo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\aclavijo\\.nuget\\packages\\csharpfunctionalextensions\\2.8.0\\csharpfunctionalextensions.2.8.0.nupkg.sha512",
     "C:\\Users\\aclavijo\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
     "C:\\Users\\aclavijo\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.0\\microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
     "C:\\Users\\aclavijo\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

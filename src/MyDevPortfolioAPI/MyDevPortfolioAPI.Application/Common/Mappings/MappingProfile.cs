@@ -3,7 +3,7 @@ using System;
 using System.Linq;
 using System.Reflection;
 
-namespace BarberShop.Application.Common.Mappings
+namespace MyDevPortfolioAPI.Application.Common.Mappings
 {
     public class MappingProfile : Profile
     {

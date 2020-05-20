@@ -11,15 +11,25 @@ namespace MyDevPortfolioAPI.Infraestructure
     {
         public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(
-                    configuration.GetConnectionString("DefaultConnection"),
-                    b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)));
-
-            services.AddScoped<IApplicationDbContext>(provider => provider.GetService<ApplicationDbContext>());
-            services.AddTransient<IDateTime, DateTimeService>();
+            AddDbContext(services, configuration);
+            AddServices(services);
 
             return services;
+        }
+
+        private static void AddServices(IServiceCollection services)
+        {
+            services.AddScoped<IApplicationDbContext>(provider => provider.GetService<ApplicationDbContext>());
+            services.AddTransient<IDateTime, DateTimeService>();
+            services.AddTransient<MessageService>();
+        }
+
+        private static void AddDbContext(IServiceCollection services, IConfiguration configuration)
+        {
+            services.AddDbContext<ApplicationDbContext>(options =>
+                            options.UseSqlServer(
+                                configuration.GetConnectionString("DefaultConnection"),
+                                b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)));
         }
     }
 }

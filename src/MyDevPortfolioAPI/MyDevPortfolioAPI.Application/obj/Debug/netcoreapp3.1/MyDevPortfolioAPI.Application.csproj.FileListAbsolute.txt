@@ -4,9 +4,9 @@ C:\Users\aclavijo\Documents\Privado\Projects\MyDevPortfolio\src\MyDevPortfolioAP
 C:\Users\aclavijo\Documents\Privado\Projects\MyDevPortfolio\src\MyDevPortfolioAPI\MyDevPortfolioAPI.Application\bin\Debug\netcoreapp3.1\MyDevPortfolioAPI.Core.dll
 C:\Users\aclavijo\Documents\Privado\Projects\MyDevPortfolio\src\MyDevPortfolioAPI\MyDevPortfolioAPI.Application\bin\Debug\netcoreapp3.1\MyDevPortfolioAPI.Core.pdb
 C:\Users\aclavijo\Documents\Privado\Projects\MyDevPortfolio\src\MyDevPortfolioAPI\MyDevPortfolioAPI.Application\obj\Debug\netcoreapp3.1\MyDevPortfolioAPI.Application.csprojAssemblyReference.cache
-C:\Users\aclavijo\Documents\Privado\Projects\MyDevPortfolio\src\MyDevPortfolioAPI\MyDevPortfolioAPI.Application\obj\Debug\netcoreapp3.1\MyDevPortfolioAPI.Application.csproj.CoreCompileInputs.cache
 C:\Users\aclavijo\Documents\Privado\Projects\MyDevPortfolio\src\MyDevPortfolioAPI\MyDevPortfolioAPI.Application\obj\Debug\netcoreapp3.1\MyDevPortfolioAPI.Application.AssemblyInfoInputs.cache
 C:\Users\aclavijo\Documents\Privado\Projects\MyDevPortfolio\src\MyDevPortfolioAPI\MyDevPortfolioAPI.Application\obj\Debug\netcoreapp3.1\MyDevPortfolioAPI.Application.AssemblyInfo.cs
 C:\Users\aclavijo\Documents\Privado\Projects\MyDevPortfolio\src\MyDevPortfolioAPI\MyDevPortfolioAPI.Application\obj\Debug\netcoreapp3.1\MyDevPortfolioAPI.Application.csproj.CopyComplete
 C:\Users\aclavijo\Documents\Privado\Projects\MyDevPortfolio\src\MyDevPortfolioAPI\MyDevPortfolioAPI.Application\obj\Debug\netcoreapp3.1\MyDevPortfolioAPI.Application.dll
 C:\Users\aclavijo\Documents\Privado\Projects\MyDevPortfolio\src\MyDevPortfolioAPI\MyDevPortfolioAPI.Application\obj\Debug\netcoreapp3.1\MyDevPortfolioAPI.Application.pdb
+C:\Users\aclavijo\Documents\Privado\Projects\MyDevPortfolio\src\MyDevPortfolioAPI\MyDevPortfolioAPI.Application\obj\Debug\netcoreapp3.1\MyDevPortfolioAPI.Application.csproj.CoreCompileInputs.cache

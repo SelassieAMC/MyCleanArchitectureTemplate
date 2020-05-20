@@ -351,3 +351,18 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+# Compilation files
+# src/MyDevPortfolioAPI/MyDevPortfolioAPI.Api/bin/*
+# src/MyDevPortfolioAPI/MyDevPortfolioAPI.Api/obj/*
+
+# src/MyDevPortfolioAPI/MyDevPortfolioAPI.Core/bin/*
+# src/MyDevPortfolioAPI/MyDevPortfolioAPI.Core/obj/*
+
+# src/MyDevPortfolioAPI/MyDevPortfolioAPI.Application/bin/*
+# src/MyDevPortfolioAPI/MyDevPortfolioAPI.Application/obj/*
+
+
+# src/MyDevPortfolioAPI/MyDevPortfolioAPI.infraestructure/bin/*
+# src/MyDevPortfolioAPI/MyDevPortfolioAPI.infraestructure/obj/*
+# src/MyDevPortfolioAPI/MyDevPortfolioAPI.Api/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
