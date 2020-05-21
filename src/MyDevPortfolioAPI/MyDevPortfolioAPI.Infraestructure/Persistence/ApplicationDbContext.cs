@@ -18,7 +18,7 @@ namespace MyDevPortfolioAPI.Infrastructure.Persistence
         {
             _dateTime = dateTime;
         }
-
+        public DbSet<DocumentType> DocumentTypes { get; set; }
         public DbSet<Person> People { get; set; }
 
         public override Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken())
