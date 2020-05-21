@@ -2,6 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using MyDevPortfolioAPI.Application.Common.Interfaces;
+using MyDevPortfolioAPI.Core.Entities;
 using MyDevPortfolioAPI.Infraestructure.Services;
 using MyDevPortfolioAPI.Infrastructure.Persistence;
 
@@ -13,6 +14,7 @@ namespace MyDevPortfolioAPI.Infraestructure
         {
             AddDbContext(services, configuration);
             AddServices(services);
+            AddRepositories(services);
 
             return services;
         }
@@ -30,6 +32,11 @@ namespace MyDevPortfolioAPI.Infraestructure
                             options.UseSqlServer(
                                 configuration.GetConnectionString("DefaultConnection"),
                                 b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)));
+        }
+
+        private static void AddRepositories(IServiceCollection services)
+        {
+            services.AddScoped<IRepository<Person>, PersonRepository>();
         }
     }
 }

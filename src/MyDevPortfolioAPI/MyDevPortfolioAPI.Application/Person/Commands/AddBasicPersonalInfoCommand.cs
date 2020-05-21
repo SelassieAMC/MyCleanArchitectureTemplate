@@ -1,12 +1,16 @@
 ﻿using CSharpFunctionalExtensions;
 using MyDevPortfolioAPI.Application.Common.Interfaces;
 using MyDevPortfolioAPI.Application.Common.Mappings;
-using MyDevPortfolioAPI.Application.DataTransferObjects;
+using MyDevPortfolioAPI.Application.DTOs;
+using ENT = MyDevPortfolioAPI.Core.Entities;
 using System;
+using AutoMapper;
 
 namespace MyDevPortfolioAPI.Application.Person.Commands
 {
-    public sealed class AddBasicPersonalInfoCommand : IMapFrom<PersonDto>, ICommand
+    public sealed class AddBasicPersonalInfoCommand : 
+        IMapFrom<CreateUpdatePersonDto>, 
+        IMapFrom<ENT.Person>, ICommand
     {
         public int DocumentTypeID { get; set; }
         public string DocumentNumber { get; set; }
@@ -23,10 +27,33 @@ namespace MyDevPortfolioAPI.Application.Person.Commands
 
         internal sealed class AddBasicPersonalInfoCommandHandler : ICommandHandler<AddBasicPersonalInfoCommand>
         {
+            private readonly IPersonRepository _personRepo;
+            private readonly IUnitOfWork _unitOfWork;
+            private readonly IMapper _mapper;
+
             //Inject Dependencies (repositories, unitofwork, etc)
-            public AddBasicPersonalInfoCommandHandler() { }
+            public AddBasicPersonalInfoCommandHandler(
+                IPersonRepository personRepo, 
+                IUnitOfWork unitOfWork,
+                IMapper mapper)
+            {
+                _personRepo = personRepo;
+                _unitOfWork = unitOfWork;
+                _mapper = mapper;
+            }
             public Result Handle(AddBasicPersonalInfoCommand command)
             {
+                var personEntity = _mapper.Map<ENT.Person>(command);
+
+                try
+                {
+                    _personRepo.AddPersonalInfo(personEntity);
+                    _unitOfWork.CommitAsync();
+                }catch(Exception ex)
+                {
+                    return Result.Failure(ex.Message);
+                }
+                
                 return Result.Ok();
             }
 

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "UTmd7mcCz/AxqL6V0h3MTYpg8Zv52tYii+KJB0ynNmKEKLjmILSTm1oeph0BVXoEOOu7JGl85s1Ouku1wlYpMg==",
+  "dgSpecHash": "7L0IBBE/6n7ZZIzoTTY7/oN41AS5lw6wJEeDHQO5i0EsACHVFah7xFG7B+1ikRBmMV+gIGH/NVuLFgWQOO3x6A==",
   "success": true,
   "projectFilePath": "C:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Api\\MyDevPortfolioAPI.Api.csproj",
   "expectedPackageFiles": [
@@ -206,7 +206,8 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
     "C:\\Users\\aclavijo\\.nuget\\packages\\system.xml.xpath\\4.0.1\\system.xml.xpath.4.0.1.nupkg.sha512",
-    "C:\\Users\\aclavijo\\.nuget\\packages\\system.xml.xpath.xdocument\\4.0.1\\system.xml.xpath.xdocument.4.0.1.nupkg.sha512"
+    "C:\\Users\\aclavijo\\.nuget\\packages\\system.xml.xpath.xdocument\\4.0.1\\system.xml.xpath.xdocument.4.0.1.nupkg.sha512",
+    "C:\\Users\\aclavijo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
   ],
   "logs": []
 }

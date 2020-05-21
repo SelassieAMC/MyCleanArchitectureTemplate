@@ -1,14 +1,14 @@
-﻿using ENT=MyDevPortfolioAPI.Core.Entities;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using System.Threading;
 using System.Threading.Tasks;
+using ENT = MyDevPortfolioAPI.Core.Entities;
 
 namespace MyDevPortfolioAPI.Application.Common.Interfaces
 {
-    public interface IApplicationDbContext 
+    public interface IApplicationDbContext
     {
         DbSet<ENT.Person> People { get; set; }
 
-        Task<int> SaveChangesAsync(CancellationToken cancellationToken);
+        Task<int> SaveChangesAsync(CancellationToken cancellationToken = new CancellationToken());
     }
 }

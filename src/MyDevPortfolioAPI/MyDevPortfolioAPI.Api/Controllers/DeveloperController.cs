@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
-using MyDevPortfolioAPI.Application.DataTransferObjects;
+using MyDevPortfolioAPI.Application.DTOs;
 using MyDevPortfolioAPI.Application.Person.Commands;
 using MyDevPortfolioAPI.Infraestructure.Services;
 
@@ -19,7 +19,7 @@ namespace MyDevPortfolioAPI.Api.Controllers
             _mapper = mapper;
         }
 
-        public IActionResult AddBasicPersonalInfo([FromBody] PersonDto personDto)
+        public IActionResult AddBasicPersonalInfo([FromBody] CreateUpdatePersonDto personDto)
         {
             var command = _mapper.Map<AddBasicPersonalInfoCommand>(personDto);
             var result = _messages.Dispatch(command);

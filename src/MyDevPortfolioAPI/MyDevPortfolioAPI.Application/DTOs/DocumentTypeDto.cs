@@ -1,7 +1,7 @@
 ﻿using MyDevPortfolioAPI.Application.Common.Mappings;
 using MyDevPortfolioAPI.Core.Entities;
 
-namespace MyDevPortfolioAPI.Application.DataTransferObjects
+namespace MyDevPortfolioAPI.Application.DTOs
 {
     public class DocumentTypeDto : IMapFrom<DocumentType>
     {
