@@ -27,8 +27,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MyDevPortfolioAPI.Application\MyDevPortfolioAPI.Application.csproj" />
-    <ProjectReference Include="..\MyDevPortfolioAPI.Infraestructure\MyDevPortfolioAPI.Infraestructure.csproj" />
+    <ProjectReference Include="..\MyCleanArchitectureAPI.Application\MyCleanArchitectureAPI.Application.csproj" />
+    <ProjectReference Include="..\MyCleanArchitectureAPI.Infraestructure\MyCleanArchitectureAPI.Infraestructure.csproj" />
   </ItemGroup>
 
 

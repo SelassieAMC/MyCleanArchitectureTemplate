@@ -1,13 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.DependencyInjection.Extensions;
 using MyDevPortfolioAPI.Application.Common.Interfaces;
-using MyDevPortfolioAPI.Application.Person.Commands;
-using MyDevPortfolioAPI.Core.Entities;
 using MyDevPortfolioAPI.Infraestructure.Services;
 using MyDevPortfolioAPI.Infrastructure.Persistence;
-using static MyDevPortfolioAPI.Application.Person.Commands.AddBasicPersonalInfoCommand;
 
 namespace MyDevPortfolioAPI.Infraestructure
 {
@@ -18,7 +14,6 @@ namespace MyDevPortfolioAPI.Infraestructure
             AddDbContext(services, configuration);
             AddServices(services);
             AddRepositories(services);
-            //AddHandlers(services);
 
             return services;
         }

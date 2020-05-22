@@ -2,7 +2,7 @@ using System;
 
 namespace MyDevPortfolioAPI.Core.Entities
 {
-    public class APILog
+    public class ApiLog
     {
         public int Id { get; set; }
         public string Message { get; set; }

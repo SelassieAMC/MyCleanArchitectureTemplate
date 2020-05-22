@@ -5,7 +5,7 @@ namespace MyDevPortfolioAPI.Core.Entities
 {
     public class Person : AuditableEntity
     {
-        public Guid Id { get; set; } = new Guid();
+        public Guid Id { get; set; } = Guid.NewGuid();
         public int DocumentTypeID { get; set; }
         public DocumentType DocumentType { get; set; }
         public string DocumentNumber { get; set; }

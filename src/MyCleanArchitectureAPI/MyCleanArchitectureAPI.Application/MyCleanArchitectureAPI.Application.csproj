@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MyDevPortfolioAPI.Core\MyDevPortfolioAPI.Core.csproj" />
+    <ProjectReference Include="..\MyCleanArchitectureAPI.Core\MyCleanArchitectureAPI.Core.csproj" />
   </ItemGroup>
 
   <ItemGroup>

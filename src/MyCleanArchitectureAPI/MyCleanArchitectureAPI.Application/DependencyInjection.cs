@@ -4,8 +4,6 @@ using Microsoft.Extensions.DependencyInjection.Extensions;
 using MyDevPortfolioAPI.Application.Common.Interfaces;
 using MyDevPortfolioAPI.Application.Common.Services;
 using MyDevPortfolioAPI.Application.Person.Commands;
-using System;
-using System.Linq;
 using System.Reflection;
 using static MyDevPortfolioAPI.Application.Person.Commands.AddBasicPersonalInfoCommand;
 

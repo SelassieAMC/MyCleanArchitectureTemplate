@@ -6,7 +6,7 @@ namespace MyDevPortfolioAPI.Application.Common.Interfaces
     {
     }
 
-    public interface ICommandHandler<TCommand>
+    public interface ICommandHandler<in TCommand>
         where TCommand : ICommand
     {
         Result Handle(TCommand command);

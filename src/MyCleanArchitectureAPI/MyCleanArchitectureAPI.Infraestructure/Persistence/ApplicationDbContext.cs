@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.ChangeTracking;
 
 namespace MyDevPortfolioAPI.Infrastructure.Persistence
 {
-    public class ApplicationDbContext :DbContext, IApplicationDbContext//: ApiAuthorizationDbContext<ApplicationUser>, IApplicationDbContext
+    public class ApplicationDbContext :DbContext, IApplicationDbContext
     {
         private readonly IDateTime _dateTime;
 
@@ -18,7 +18,7 @@ namespace MyDevPortfolioAPI.Infrastructure.Persistence
         {
             _dateTime = dateTime;
         }
-        private DbSet<APILog> APILog {get; set; }
+        private DbSet<ApiLog> APILog {get; set; }
         public DbSet<DocumentType> DocumentTypes { get; set; }
         public DbSet<Person> People { get; set; }
 
@@ -30,11 +30,11 @@ namespace MyDevPortfolioAPI.Infrastructure.Persistence
                 switch (entry.State)
                 {
                     case EntityState.Added:
-                        entry.Entity.CreatedBy = "";//_currentUserService.UserId;
+                        entry.Entity.CreatedBy = "";
                         entry.Entity.Created = _dateTime.Now;
                         break;
                     case EntityState.Modified:
-                        entry.Entity.LastModifiedBy = "";//_currentUserService.UserId;
+                        entry.Entity.LastModifiedBy = "";
                         entry.Entity.LastModified = _dateTime.Now;
                         break;
                 }

@@ -8,7 +8,7 @@ using Serilog;
 
 namespace MyDevPortfolioAPI.Api
 {
-    public class Program
+    public static class Program
     {
         public static IConfiguration Configuration { get; } = new ConfigurationBuilder()
             .SetBasePath(Directory.GetCurrentDirectory())
