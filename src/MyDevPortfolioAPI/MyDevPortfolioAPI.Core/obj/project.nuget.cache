@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yW1WSR9BGcE3s2qA6ynLtSqZoK/fHmDvadL++tPz7HjboW7P6XURegdt4oFguuVnWBuSE5o4phZhClPB+xMQpA==",
+  "dgSpecHash": "VVP4c6ci2ULS81JcfddM8o6jv+0/GZ1DpmBctBdrt6xK4EFDYiJ5c0WDk4QcfqaQsqXQhycLmPqWn7wmG30gNg==",
   "success": true,
-  "projectFilePath": "c:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Core\\MyDevPortfolioAPI.Core.csproj",
+  "projectFilePath": "C:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Core\\MyDevPortfolioAPI.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aclavijo\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
   ],

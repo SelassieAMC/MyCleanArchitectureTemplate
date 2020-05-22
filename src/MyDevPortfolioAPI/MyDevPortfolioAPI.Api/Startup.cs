@@ -7,6 +7,7 @@ using Microsoft.Extensions.Hosting;
 using MyDevPortfolioAPI.Application;
 using MyDevPortfolioAPI.Infraestructure;
 using MyDevPortfolioAPI.Infrastructure.Persistence;
+using Serilog;
 
 namespace MyDevPortfolioAPI.Api
 {
@@ -58,7 +59,7 @@ namespace MyDevPortfolioAPI.Api
             context.Database.Migrate();
 
             app.UseHealthChecks("/health");
-            
+            app.UseSerilogRequestLogging();
             app.UseHttpsRedirection();
 
             app.UseOpenApi();

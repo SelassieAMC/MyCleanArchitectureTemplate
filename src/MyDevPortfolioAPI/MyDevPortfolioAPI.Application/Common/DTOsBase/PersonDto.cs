@@ -6,7 +6,7 @@ namespace MyDevPortfolioAPI.Application.Common.DTOsBase
 {
     public class PersonDto : IMapFrom<AddBasicPersonalInfoCommand>
     {
-        public Guid Id { get; set; }
+        public Guid? Id { get; set; }
         public int DocumentTypeID { get; set; }
         public string DocumentNumber { get; set; }
         public string Name { get; set; }

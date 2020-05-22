@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VUWTaEYBdBM2G7dntjl+w84ZacZa5xvMQ7ub3K5AD72NWHqaxkkMmP6jJP/wdGAKPlJkMmwygxLYv8/zt1Mi4w==",
+  "dgSpecHash": "o9iFTh1g6dj9BCZG/+0lesBXoqV1PwNOiS1yMGCvAvuIiCNmN3HQRO3eB7/XAbIvEleYWu0Uqw23ECzGLKLDzQ==",
   "success": true,
-  "projectFilePath": "c:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Infraestructure\\MyDevPortfolioAPI.Infraestructure.csproj",
+  "projectFilePath": "C:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Infraestructure\\MyDevPortfolioAPI.Infraestructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aclavijo\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\aclavijo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",
