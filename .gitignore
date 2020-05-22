@@ -4,8 +4,8 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 #Custom
-src/MyDevPortfolioUI
-*.pdb
+src/MyDevPortfolioUI/
+
 
 # User-specific files
 *.rsuser
@@ -21,19 +21,19 @@ src/MyDevPortfolioUI
 mono_crash.*
 
 # Build results
-*/[Dd]ebug/
-*/[Dd]ebugPublic/
-*/[Rr]elease/
-*/[Rr]eleases/
-*/x64/
-*/x86/
-*/[Aa][Rr][Mm]/
-*/[Aa][Rr][Mm]64/
-*/bld/
-*/[Bb]in/
-*/[Oo]bj/
-*/[Ll]og/
-*/[Ll]ogs/
+**/[Dd]ebug/
+**/[Dd]ebugPublic/
+**/[Rr]elease/
+**/[Rr]eleases/
+**/x64/
+**/x86/
+**/[Aa][Rr][Mm]/
+**/[Aa][Rr][Mm]64/
+**/bld/
+**/[Bb]in/
+**/[Oo]bj/
+**/[Ll]og/
+**/[Ll]ogs/
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
@@ -44,7 +44,7 @@ mono_crash.*
 Generated\ Files/
 
 # MSTest test Results
-[Tt]est[Rr]esult*/
+**/[Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
 # NUnit
@@ -352,18 +352,3 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
-
-# Compilation files
-# src/MyDevPortfolioAPI/MyDevPortfolioAPI.Api/bin/*
-# src/MyDevPortfolioAPI/MyDevPortfolioAPI.Api/obj/*
-
-# src/MyDevPortfolioAPI/MyDevPortfolioAPI.Core/bin/*
-# src/MyDevPortfolioAPI/MyDevPortfolioAPI.Core/obj/*
-
-# src/MyDevPortfolioAPI/MyDevPortfolioAPI.Application/bin/*
-# src/MyDevPortfolioAPI/MyDevPortfolioAPI.Application/obj/*
-
-
-# src/MyDevPortfolioAPI/MyDevPortfolioAPI.infraestructure/bin/*
-# src/MyDevPortfolioAPI/MyDevPortfolioAPI.infraestructure/obj/*
-# src/MyDevPortfolioAPI/MyDevPortfolioAPI.Api/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.dll
