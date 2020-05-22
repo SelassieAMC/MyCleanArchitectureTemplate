@@ -1,10 +1,10 @@
 ﻿using MyDevPortfolioAPI.Application.Common.Mappings;
+using MyDevPortfolioAPI.Application.Person.Commands;
 using System;
-using ENT = MyDevPortfolioAPI.Core.Entities;
 
 namespace MyDevPortfolioAPI.Application.Common.DTOsBase
 {
-    public class PersonDto : IMapFrom<ENT.Person>
+    public class PersonDto : IMapFrom<AddBasicPersonalInfoCommand>
     {
         public Guid Id { get; set; }
         public int DocumentTypeID { get; set; }

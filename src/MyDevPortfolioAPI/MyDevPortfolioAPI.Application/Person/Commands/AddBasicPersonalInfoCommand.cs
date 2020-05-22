@@ -1,7 +1,6 @@
 ﻿using CSharpFunctionalExtensions;
 using MyDevPortfolioAPI.Application.Common.Interfaces;
 using MyDevPortfolioAPI.Application.Common.Mappings;
-using MyDevPortfolioAPI.Application.DTOs;
 using ENT = MyDevPortfolioAPI.Core.Entities;
 using System;
 using AutoMapper;
@@ -9,7 +8,6 @@ using AutoMapper;
 namespace MyDevPortfolioAPI.Application.Person.Commands
 {
     public sealed class AddBasicPersonalInfoCommand : 
-        IMapFrom<CreateUpdatePersonDto>, 
         IMapFrom<ENT.Person>, ICommand
     {
         public int DocumentTypeID { get; set; }
@@ -25,13 +23,12 @@ namespace MyDevPortfolioAPI.Application.Person.Commands
 
         public AddBasicPersonalInfoCommand() { }
 
-        internal sealed class AddBasicPersonalInfoCommandHandler : ICommandHandler<AddBasicPersonalInfoCommand>
+        public sealed class AddBasicPersonalInfoCommandHandler : ICommandHandler<AddBasicPersonalInfoCommand>
         {
             private readonly IPersonRepository _personRepo;
             private readonly IUnitOfWork _unitOfWork;
             private readonly IMapper _mapper;
 
-            //Inject Dependencies (repositories, unitofwork, etc)
             public AddBasicPersonalInfoCommandHandler(
                 IPersonRepository personRepo, 
                 IUnitOfWork unitOfWork,
@@ -49,7 +46,8 @@ namespace MyDevPortfolioAPI.Application.Person.Commands
                 {
                     _personRepo.AddPersonalInfo(personEntity);
                     _unitOfWork.CommitAsync();
-                }catch(Exception ex)
+                }
+                catch(Exception ex)
                 {
                     return Result.Failure(ex.Message);
                 }

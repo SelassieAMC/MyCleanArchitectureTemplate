@@ -1,13 +1,13 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using MyDevPortfolioAPI.Application.Common.Services;
 using MyDevPortfolioAPI.Application.DTOs;
 using MyDevPortfolioAPI.Application.Person.Commands;
-using MyDevPortfolioAPI.Infraestructure.Services;
 
 namespace MyDevPortfolioAPI.Api.Controllers
 {
     [ApiController]
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     public sealed class DeveloperController : BaseController
     {
         public readonly MessageService _messages;
@@ -18,7 +18,7 @@ namespace MyDevPortfolioAPI.Api.Controllers
             _messages = messages;
             _mapper = mapper;
         }
-
+        [HttpPost]
         public IActionResult AddBasicPersonalInfo([FromBody] CreateUpdatePersonDto personDto)
         {
             var command = _mapper.Map<AddBasicPersonalInfoCommand>(personDto);

@@ -6,3 +6,4 @@ C:\Users\aclavijo\Documents\Privado\Projects\MyDevPortfolio\src\MyDevPortfolioAP
 C:\Users\aclavijo\Documents\Privado\Projects\MyDevPortfolio\src\MyDevPortfolioAPI\MyDevPortfolioAPI.Core\obj\Debug\netcoreapp3.1\MyDevPortfolioAPI.Core.AssemblyInfo.cs
 C:\Users\aclavijo\Documents\Privado\Projects\MyDevPortfolio\src\MyDevPortfolioAPI\MyDevPortfolioAPI.Core\obj\Debug\netcoreapp3.1\MyDevPortfolioAPI.Core.dll
 C:\Users\aclavijo\Documents\Privado\Projects\MyDevPortfolio\src\MyDevPortfolioAPI\MyDevPortfolioAPI.Core\obj\Debug\netcoreapp3.1\MyDevPortfolioAPI.Core.pdb
+C:\Users\aclavijo\Documents\Privado\Projects\MyDevPortfolio\src\MyDevPortfolioAPI\MyDevPortfolioAPI.Core\obj\Debug\netcoreapp3.1\MyDevPortfolioAPI.Core.csprojAssemblyReference.cache
