@@ -4,6 +4,8 @@ using MyDevPortfolioAPI.Application.Common.Mappings;
 using ENT = MyDevPortfolioAPI.Core.Entities;
 using System;
 using AutoMapper;
+using Serilog;
+using Newtonsoft.Json;
 
 namespace MyDevPortfolioAPI.Application.Person.Commands
 {
@@ -41,7 +43,7 @@ namespace MyDevPortfolioAPI.Application.Person.Commands
             public Result Handle(AddBasicPersonalInfoCommand command)
             {
                 var personEntity = _mapper.Map<ENT.Person>(command);
-
+                Log.Information($"Executing command {nameof(AddBasicPersonalInfoCommand)}",JsonConvert.SerializeObject(command));
                 try
                 {
                     _personRepo.AddPersonalInfo(personEntity);

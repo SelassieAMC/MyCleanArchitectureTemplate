@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Api\\MyDevPortfolioAPI.Api.csproj": {}
+    "c:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Api\\MyDevPortfolioAPI.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Api\\MyDevPortfolioAPI.Api.csproj": {
+    "c:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Api\\MyDevPortfolioAPI.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Api\\MyDevPortfolioAPI.Api.csproj",
+        "projectUniqueName": "c:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Api\\MyDevPortfolioAPI.Api.csproj",
         "projectName": "MyDevPortfolioAPI.Api",
-        "projectPath": "C:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Api\\MyDevPortfolioAPI.Api.csproj",
+        "projectPath": "c:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Api\\MyDevPortfolioAPI.Api.csproj",
         "packagesPath": "C:\\Users\\aclavijo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Api\\obj\\",
+        "outputPath": "c:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,11 +30,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Application\\MyDevPortfolioAPI.Application.csproj": {
-                "projectPath": "C:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Application\\MyDevPortfolioAPI.Application.csproj"
+              "c:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Application\\MyDevPortfolioAPI.Application.csproj": {
+                "projectPath": "c:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Application\\MyDevPortfolioAPI.Application.csproj"
               },
-              "C:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Infraestructure\\MyDevPortfolioAPI.Infraestructure.csproj": {
-                "projectPath": "C:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Infraestructure\\MyDevPortfolioAPI.Infraestructure.csproj"
+              "c:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Infraestructure\\MyDevPortfolioAPI.Infraestructure.csproj": {
+                "projectPath": "c:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Infraestructure\\MyDevPortfolioAPI.Infraestructure.csproj"
               }
             }
           }
@@ -87,6 +87,22 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[13.5.0, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Sinks.EventLog": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "Serilog.Sinks.MSSqlServer": {
+              "target": "Package",
+              "version": "[5.4.0, )"
             }
           },
           "imports": [
@@ -117,14 +133,14 @@
         }
       }
     },
-    "C:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Application\\MyDevPortfolioAPI.Application.csproj": {
+    "c:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Application\\MyDevPortfolioAPI.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Application\\MyDevPortfolioAPI.Application.csproj",
+        "projectUniqueName": "c:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Application\\MyDevPortfolioAPI.Application.csproj",
         "projectName": "MyDevPortfolioAPI.Application",
-        "projectPath": "C:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Application\\MyDevPortfolioAPI.Application.csproj",
+        "projectPath": "c:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Application\\MyDevPortfolioAPI.Application.csproj",
         "packagesPath": "C:\\Users\\aclavijo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Application\\obj\\",
+        "outputPath": "c:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -143,8 +159,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Core\\MyDevPortfolioAPI.Core.csproj": {
-                "projectPath": "C:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Core\\MyDevPortfolioAPI.Core.csproj"
+              "c:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Core\\MyDevPortfolioAPI.Core.csproj": {
+                "projectPath": "c:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Core\\MyDevPortfolioAPI.Core.csproj"
               }
             }
           }
@@ -177,6 +193,10 @@
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.3, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[3.2.0, )"
             }
           },
           "imports": [
@@ -204,14 +224,14 @@
         }
       }
     },
-    "C:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Core\\MyDevPortfolioAPI.Core.csproj": {
+    "c:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Core\\MyDevPortfolioAPI.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Core\\MyDevPortfolioAPI.Core.csproj",
+        "projectUniqueName": "c:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Core\\MyDevPortfolioAPI.Core.csproj",
         "projectName": "MyDevPortfolioAPI.Core",
-        "projectPath": "C:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Core\\MyDevPortfolioAPI.Core.csproj",
+        "projectPath": "c:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Core\\MyDevPortfolioAPI.Core.csproj",
         "packagesPath": "C:\\Users\\aclavijo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Core\\obj\\",
+        "outputPath": "c:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -265,14 +285,14 @@
         }
       }
     },
-    "C:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Infraestructure\\MyDevPortfolioAPI.Infraestructure.csproj": {
+    "c:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Infraestructure\\MyDevPortfolioAPI.Infraestructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Infraestructure\\MyDevPortfolioAPI.Infraestructure.csproj",
+        "projectUniqueName": "c:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Infraestructure\\MyDevPortfolioAPI.Infraestructure.csproj",
         "projectName": "MyDevPortfolioAPI.Infraestructure",
-        "projectPath": "C:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Infraestructure\\MyDevPortfolioAPI.Infraestructure.csproj",
+        "projectPath": "c:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Infraestructure\\MyDevPortfolioAPI.Infraestructure.csproj",
         "packagesPath": "C:\\Users\\aclavijo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Infraestructure\\obj\\",
+        "outputPath": "c:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Infraestructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -291,8 +311,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Application\\MyDevPortfolioAPI.Application.csproj": {
-                "projectPath": "C:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Application\\MyDevPortfolioAPI.Application.csproj"
+              "c:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Application\\MyDevPortfolioAPI.Application.csproj": {
+                "projectPath": "c:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Application\\MyDevPortfolioAPI.Application.csproj"
               }
             }
           }

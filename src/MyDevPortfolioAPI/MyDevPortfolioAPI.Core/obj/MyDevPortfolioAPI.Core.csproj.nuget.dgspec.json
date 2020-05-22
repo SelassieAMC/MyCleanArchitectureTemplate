@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Core\\MyDevPortfolioAPI.Core.csproj": {}
+    "c:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Core\\MyDevPortfolioAPI.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Core\\MyDevPortfolioAPI.Core.csproj": {
+    "c:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Core\\MyDevPortfolioAPI.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Core\\MyDevPortfolioAPI.Core.csproj",
+        "projectUniqueName": "c:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Core\\MyDevPortfolioAPI.Core.csproj",
         "projectName": "MyDevPortfolioAPI.Core",
-        "projectPath": "C:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Core\\MyDevPortfolioAPI.Core.csproj",
+        "projectPath": "c:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Core\\MyDevPortfolioAPI.Core.csproj",
         "packagesPath": "C:\\Users\\aclavijo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Core\\obj\\",
+        "outputPath": "c:\\Users\\aclavijo\\Documents\\Privado\\Projects\\MyDevPortfolio\\src\\MyDevPortfolioAPI\\MyDevPortfolioAPI.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

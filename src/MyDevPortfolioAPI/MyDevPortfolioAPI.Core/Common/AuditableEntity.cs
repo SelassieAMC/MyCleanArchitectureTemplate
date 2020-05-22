@@ -5,13 +5,13 @@ namespace MyDevPortfolioAPI.Core.Common
 {
     public abstract class AuditableEntity
     {
-        [Column(Order = 20)]
+        [Column(Order = 200)]
         public string CreatedBy { get; set; }
-        [Column(Order = 21)]
+        [Column(Order = 201)]
         public DateTime Created { get; set; }
-        [Column(Order = 22)]
+        [Column(Order = 202)]
         public string LastModifiedBy { get; set; }
-        [Column(Order = 23)]
+        [Column(Order = 203)]
         public DateTime? LastModified { get; set; }
     }
 }
