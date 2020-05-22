@@ -1,10 +1,13 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection.Extensions;
 using MyDevPortfolioAPI.Application.Common.Interfaces;
+using MyDevPortfolioAPI.Application.Person.Commands;
 using MyDevPortfolioAPI.Core.Entities;
 using MyDevPortfolioAPI.Infraestructure.Services;
 using MyDevPortfolioAPI.Infrastructure.Persistence;
+using static MyDevPortfolioAPI.Application.Person.Commands.AddBasicPersonalInfoCommand;
 
 namespace MyDevPortfolioAPI.Infraestructure
 {
@@ -15,6 +18,7 @@ namespace MyDevPortfolioAPI.Infraestructure
             AddDbContext(services, configuration);
             AddServices(services);
             AddRepositories(services);
+            //AddHandlers(services);
 
             return services;
         }
@@ -23,7 +27,6 @@ namespace MyDevPortfolioAPI.Infraestructure
         {
             services.AddScoped<IApplicationDbContext>(provider => provider.GetService<ApplicationDbContext>());
             services.AddTransient<IDateTime, DateTimeService>();
-            services.AddTransient<MessageService>();
         }
 
         private static void AddDbContext(IServiceCollection services, IConfiguration configuration)
@@ -36,7 +39,8 @@ namespace MyDevPortfolioAPI.Infraestructure
 
         private static void AddRepositories(IServiceCollection services)
         {
-            services.AddScoped<IRepository<Person>, PersonRepository>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+            services.AddScoped<IPersonRepository, PersonRepository>();
         }
     }
 }
