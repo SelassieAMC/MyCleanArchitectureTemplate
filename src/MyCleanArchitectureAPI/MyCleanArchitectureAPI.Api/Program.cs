@@ -20,7 +20,7 @@ namespace MyDevPortfolioAPI.Api
             Log.Logger = new LoggerConfiguration()
                 .ReadFrom.Configuration(Configuration)
                 .WriteTo.Console()
-                .WriteTo.EventLog("Template API", manageEventSource: true)
+                //.WriteTo.EventLog("Template API", manageEventSource: true)
                 .CreateLogger();
 
             Serilog.Debugging.SelfLog.Enable(msg =>
